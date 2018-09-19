@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A command tool that let you start develop java backend quickly",
   "main": "index.js",
-  "bin":{
-    "springboot": "./bin/index.js"
+  "bin": {
+    "spring": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/detectiveHLH/springboot-cli/issues"
   },
-  "homepage": "https://github.com/detectiveHLH/springboot-cli#readme"
+  "homepage": "https://github.com/detectiveHLH/springboot-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "inquirer": "^6.2.0"
+  }
 }

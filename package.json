@@ -1,0 +1,23 @@
+{
+  "name": "springboot-cli",
+  "version": "1.0.0",
+  "description": "A command tool that let you start develop java backend quickly",
+  "main": "index.js",
+  "bin":{
+    "mei": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detectiveHLH/springboot-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/detectiveHLH/springboot-cli/issues"
+  },
+  "homepage": "https://github.com/detectiveHLH/springboot-cli#readme"
+}
